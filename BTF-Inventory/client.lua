@@ -29,20 +29,20 @@ AddEventHandler('openBoot', function()
 
         tvRP.vc_openDoor({VehTypeC, 5})
         inventoryType = 'CarBoot'
-        TriggerServerEvent('CXRP:FetchTrunkInventory', NVeh, NetworkGetNetworkIdFromEntity(nearestVeh))
+        TriggerServerEvent('BTF:FetchTrunkInventory', NVeh, NetworkGetNetworkIdFromEntity(nearestVeh))
     end
 end)
 
-RegisterNetEvent("CXRP:FetchInventoryCL")
-AddEventHandler("CXRP:FetchInventoryCL",function()
-    TriggerServerEvent('CXRP:FetchPersonalInventory')
+RegisterNetEvent("BTF:FetchInventoryCL")
+AddEventHandler("BTF:FetchInventoryCL",function()
+    TriggerServerEvent('BTF:FetchPersonalInventory')
 end)
 
 local LootBagCrouchLoop = false;
 RegisterCommand('inventory', function()
     if not tvRP.isInComa({}) then
         if not inventoryOpen then
-            TriggerServerEvent('CXRP:FetchPersonalInventory')
+            TriggerServerEvent('BTF:FetchPersonalInventory')
             inventoryOpen = true; 
             SetNuiFocus(true, true)
             SetNuiFocusKeepInput(true)
@@ -63,7 +63,7 @@ RegisterCommand('inventory', function()
                 if debug then 
                     print('Requested lootbag to close.')
                 end
-                TriggerServerEvent('CXRP:CloseLootbag')
+                TriggerServerEvent('BTF:CloseLootbag')
                 IsLootBagOpening = false;
                 ResetPedMovementClipset(PlayerPedId(), 0.30 )
                 LootBagCrouchLoop = false;
@@ -75,16 +75,16 @@ RegisterCommand('inventory', function()
     end
 end)
 
-RegisterNetEvent("CXRP:OpenHomeStorage")
-AddEventHandler("CXRP:OpenHomeStorage", function(toggle , houseName)
+RegisterNetEvent("BTF:OpenHomeStorage")
+AddEventHandler("BTF:OpenHomeStorage", function(toggle , houseName)
     if toggle == true then
-        TriggerServerEvent('CXRP:FetchPersonalInventory')
+        TriggerServerEvent('BTF:FetchPersonalInventory')
         inventoryOpen = true; 
         SetNuiFocus(true, true)
         SetNuiFocusKeepInput(true)
         SendNUIMessage({action = 'InventoryDisplay', showInv = true})
         inventoryType = 'Housing'
-        TriggerServerEvent('CXRP:FetchHouseInventory', houseName)
+        TriggerServerEvent('BTF:FetchHouseInventory', houseName)
     else
         inventoryOpen = false;
         SetNuiFocus(false, false)
@@ -101,8 +101,8 @@ function LoadAnimDict(dict)
     end
 end
 
-RegisterNetEvent('CXRP:InventoryOpen')
-AddEventHandler('CXRP:InventoryOpen', function(toggle, lootbag)
+RegisterNetEvent('BTF:InventoryOpen')
+AddEventHandler('BTF:InventoryOpen', function(toggle, lootbag)
     IsLootBagOpening = lootbag
     if toggle then
         inventoryOpen = true; 
@@ -116,7 +116,7 @@ AddEventHandler('CXRP:InventoryOpen', function(toggle, lootbag)
         SendNUIMessage({action = 'InventoryDisplay', showInv = false})
     end
     if IsLootBagOpening then
-        TriggerEvent("CXRP:PlaySound", "zipper")
+        TriggerEvent("BTF:PlaySound", "zipper")
         LoadAnimDict('amb@medic@standing@kneel@base')
         LoadAnimDict('anim@gangops@facility@servers@bodysearch@')
         TaskPlayAnim(PlayerPedId(), "amb@medic@standing@kneel@base" ,"base" ,8.0, -8.0, -1, 1, 0, false, false, false)
@@ -163,23 +163,23 @@ function sortAlphabetically(aV)
     return aV
 end
 
-RegisterNetEvent('CXRP:ToggleNUIFocus')
-AddEventHandler('CXRP:ToggleNUIFocus', function(value)
+RegisterNetEvent('BTF:ToggleNUIFocus')
+AddEventHandler('BTF:ToggleNUIFocus', function(value)
     --print('focus', value)
     SetNuiFocus(value, value)
     SetNuiFocusKeepInput(value)
 end)
 
-RegisterNetEvent('CXRP:SendSecondaryInventoryData')
-AddEventHandler('CXRP:SendSecondaryInventoryData', function(InventoryData, CurrentKG, MaxKg)
+RegisterNetEvent('BTF:SendSecondaryInventoryData')
+AddEventHandler('BTF:SendSecondaryInventoryData', function(InventoryData, CurrentKG, MaxKg)
     SendNUIMessage({action = 'loadSecondaryItems', items = InventoryData, CurrentKG = CurrentKG, MaxKG = MaxKg, invType = inventoryType})
     if debug then
         print('Sent secondary inventory data to client.')
     end
 end)
 
-RegisterNetEvent('CXRP:FetchPersonalInventory')
-AddEventHandler('CXRP:FetchPersonalInventory', function(table, CurrentKG, MaxKG)
+RegisterNetEvent('BTF:FetchPersonalInventory')
+AddEventHandler('BTF:FetchPersonalInventory', function(table, CurrentKG, MaxKG)
 
     SendNUIMessage({action = 'loadItems', items = table, CurrentKG = CurrentKG, MaxKG = MaxKG})
     if debug then
@@ -188,19 +188,19 @@ AddEventHandler('CXRP:FetchPersonalInventory', function(table, CurrentKG, MaxKG)
 end)
 
 RegisterNUICallback('UseBtn', function(data, cb)
-    TriggerServerEvent('CXRP:UseItem', data.itemId, data.invType)
+    TriggerServerEvent('BTF:UseItem', data.itemId, data.invType)
     cb(true);
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
 end)
 
 RegisterNUICallback('TrashBtn', function(data, cb)
-    TriggerServerEvent('CXRP:TrashItem', data.itemId, data.invType)
+    TriggerServerEvent('BTF:TrashItem', data.itemId, data.invType)
     cb(true);
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
 end)
 
 RegisterNUICallback('GiveBtn', function(data, cb)
-    TriggerServerEvent('CXRP:GiveItem', data.itemId, data.invType)
+    TriggerServerEvent('BTF:GiveItem', data.itemId, data.invType)
     cb(true)
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
 end)
@@ -209,12 +209,12 @@ end)
 RegisterNUICallback('MoveBtn', function(data, cb)
     if not IsLootBagOpening then
         if inventoryType == 'CarBoot' then
-            TriggerServerEvent('CXRP:MoveItem', data.invType, data.itemId, VehTypeA) -- for vehicle
+            TriggerServerEvent('BTF:MoveItem', data.invType, data.itemId, VehTypeA) -- for vehicle
         elseif inventoryType == "Housing" then
-            TriggerServerEvent('CXRP:MoveItem', data.invType, data.itemId, "home") -- for housing
+            TriggerServerEvent('BTF:MoveItem', data.invType, data.itemId, "home") -- for housing
         end
     else 
-        TriggerServerEvent('CXRP:MoveItem', 'LootBag', data.itemId, LootBagIDNew)
+        TriggerServerEvent('BTF:MoveItem', 'LootBag', data.itemId, LootBagIDNew)
     end
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
     cb(true)
@@ -223,12 +223,12 @@ end)
 RegisterNUICallback('MoveXBtn', function(data, cb)
     if not IsLootBagOpening then
         if inventoryType == 'CarBoot' then
-            TriggerServerEvent('CXRP:MoveItemX', data.invType, data.itemId, VehTypeA) -- for vehicle
+            TriggerServerEvent('BTF:MoveItemX', data.invType, data.itemId, VehTypeA) -- for vehicle
         elseif inventoryType == "Housing" then
-            TriggerServerEvent('CXRP:MoveItemX', data.invType, data.itemId, "home") -- for housing
+            TriggerServerEvent('BTF:MoveItemX', data.invType, data.itemId, "home") -- for housing
         end
     else 
-        TriggerServerEvent('CXRP:MoveItemX', 'LootBag', data.itemId, LootBagIDNew)
+        TriggerServerEvent('BTF:MoveItemX', 'LootBag', data.itemId, LootBagIDNew)
     end
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
     cb(true)
@@ -239,12 +239,12 @@ RegisterNUICallback('MoveAllBtn', function(data, cb)
     if not IsLootBagOpening then
         local nearestVeh2 = vRP.getNearestVehicle({3})
         if inventoryType == 'CarBoot' then
-            TriggerServerEvent('CXRP:MoveItemAll', data.invType, data.itemId, VehTypeA, NetworkGetNetworkIdFromEntity(nearestVeh2)) -- for vehicle
+            TriggerServerEvent('BTF:MoveItemAll', data.invType, data.itemId, VehTypeA, NetworkGetNetworkIdFromEntity(nearestVeh2)) -- for vehicle
         elseif inventoryType == "Housing" then
-            TriggerServerEvent('CXRP:MoveItemAll', data.invType, data.itemId, "home") -- for housing
+            TriggerServerEvent('BTF:MoveItemAll', data.invType, data.itemId, "home") -- for housing
         end
     else 
-        TriggerServerEvent('CXRP:MoveItemAll', 'LootBag', data.itemId, LootBagIDNew)
+        TriggerServerEvent('BTF:MoveItemAll', 'LootBag', data.itemId, LootBagIDNew)
     end
     PlaySound(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 0, 0, 1)
     cb(true)
@@ -510,13 +510,13 @@ function getNearestVehicle(radius)
     end
   end
 
-RegisterNetEvent('CXRP:LockPick2')
-AddEventHandler('CXRP:LockPick2', function()
-    TriggerServerEvent('CXRP:LockPick')
+RegisterNetEvent('BTF:LockPick2')
+AddEventHandler('BTF:LockPick2', function()
+    TriggerServerEvent('BTF:LockPick')
 end)
 
-RegisterNetEvent('CXRP:whatIsThis')
-AddEventHandler('CXRP:whatIsThis', function()
+RegisterNetEvent('BTF:whatIsThis')
+AddEventHandler('BTF:whatIsThis', function()
       local chance = math.random(1,2)
       local nearestVeh = vRP.getNearestVehicle({3.5})
         hasDoneIt = false
@@ -620,7 +620,7 @@ AddEventHandler('CXRP:whatIsThis', function()
                        VehTypeA = GetEntityArchetypeName(nearestVeh)
                        VehTypeC = nearestVeh
                        inventoryType = 'CarBoot'
-                       TriggerServerEvent('CXRP:FetchTrunkInventory', GetEntityArchetypeName(nearestVeh), NetworkGetNetworkIdFromEntity(nearestVeh))                   
+                       TriggerServerEvent('BTF:FetchTrunkInventory', GetEntityArchetypeName(nearestVeh), NetworkGetNetworkIdFromEntity(nearestVeh))                   
                    vRP.notify({"~g~You were succesful in picking this car."})
                else
                    vRP.notify({"~r~You were unsuccesful in picking this car."})
