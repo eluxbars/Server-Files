@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "stratum2_bdbold";
+    src: url("stratum2-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    text-align: right;
+    overflow: hidden;
+    font-size: 100% !important;
+    font-family: 'stratum2_bdbold', monospace;
+}
+
+.killContainer {
+    /* width: auto !important;
+    height: 20px;
+    float: right;
+    background: rgba(0,0,0,0.50);
+    color: #FFF;
+    font-family: 'stratum2_bdbold', monospace;
+    line-height: 18px;
+    font-size: 100% !important;
+    padding-bottom: 5px;
+    padding-top: -150px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+    text-align: center;
+    vertical-align: top; */
+    width: auto !important;
+    display: inline;
+    margin-left: auto;
+    padding: 3px 6px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    line-height: 18px;
+    transition: margin-top 1s;
+    padding: 5px;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 5px;
+}
+
+.selfkillcontainer {
+    /* width: auto !important;
+    height: 20px;
+    float: right;
+    background: rgba(0,0,0,0.50);
+    color: #FFF;
+    font-family: 'stratum2_bdbold', monospace;
+    line-height: 18px;
+    font-size: 100% !important;
+    padding-bottom: 5px;
+    padding-top: -150px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    vertical-align: top; */
+    width: auto !important;
+    display: inline;
+    margin-left: auto;
+    padding: 3px 6px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    line-height: 18px;
+    /* margin-top: 1px; */
+    transition: margin-top 1s;
+    padding: 5px;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(240, 47, 47);
+}   
+
+
+.weapon {
+    height: 24px;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+.citizen {
+    color: #fc3838;
+}
+
+.mpd {
+    color: #4F9EDE;
+}
+
+.nhs {
+    color: #00D100;
+}
+
+.distance {
+    color: #ffffff;
+}
+
+.clear {
+    clear:both
+}
