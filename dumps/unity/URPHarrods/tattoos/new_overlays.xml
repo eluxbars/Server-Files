@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PedDecorationCollection>
+  <bRequiredForSync value="true" />
+  <presets>
+    <Item>
+      <uvPos x="0.717000" y="0.410000" />
+      <scale x="0.270000" y="0.340000" />
+      <rotation value="0.000000" />
+      <nameHash>sleeve_01</nameHash>
+      <txdHash>sleeve_01</txdHash>
+      <txtHash>sleeve_01</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.700000" y="0.420000" />
+      <scale x="0.150000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_02</nameHash>
+      <txdHash>halfsleeve_02</txdHash>
+      <txtHash>halfsleeve_02</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.700000" y="0.520000" />
+      <scale x="0.150000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_03</nameHash>
+      <txdHash>halfsleeve_03</txdHash>
+      <txtHash>halfsleeve_03</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.717000" y="0.510000" />
+      <scale x="0.270000" y="0.340000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_04</nameHash>
+      <txdHash>halfsleeve_04</txdHash>
+      <txtHash>halfsleeve_04</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.640000" />
+      <scale x="0.110000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>sleeve_05</nameHash>
+      <txdHash>sleeve_05</txdHash>
+      <txtHash>sleeve_05</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.280000" y="0.680000" />
+      <scale x="0.100000" y="0.170000" />
+      <rotation value="0.000000" />
+      <nameHash>legskull_07</nameHash>
+      <txdHash>legskull_07</txdHash>
+      <txtHash>legskull_07</txtHash>
+      <zone>ZONE_RIGHT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.260000" y="-0.680000" />
+      <scale x="0.100000" y="0.170000" />
+      <rotation value="0.000000" />
+      <nameHash>legskull_08</nameHash>
+      <txdHash>legskull_08</txdHash>
+      <txtHash>legskull_08</txtHash>
+      <zone>ZONE_LEFT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.830000" />
+      <scale x="0.100000" y="0.170000" />
+      <rotation value="0.000000" />
+      <nameHash>upperhalfsleeve_09</nameHash>
+      <txdHash>upperhalfsleeve_09</txdHash>
+      <txtHash>upperhalfsleeve_09</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.640000" />
+      <scale x="0.110000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>mexicansleeve_10</nameHash>
+      <txdHash>mexicansleeve_10</txdHash>
+      <txtHash>mexicansleeve_10</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.240000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>anothersleeve_11</nameHash>
+      <txdHash>anothersleeve_11</txdHash>
+      <txtHash>anothersleeve_11</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="1.550000" y="0.780000" />
+      <scale x="0.150000" y="0.190000" />
+      <rotation value="0.000000" />
+      <nameHash>upperhalfsleeve_12</nameHash>
+      <txdHash>upperhalfsleeve_12</txdHash>
+      <txtHash>upperhalfsleeve_12</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.640000" />
+      <scale x="0.150000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>marilynmonroesleeve_right_13</nameHash>
+      <txdHash>marilynmonroesleeve_right_13</txdHash>
+      <txtHash>marilynmonroesleeve_right_13</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.150000" y="0.390000" />
+      <rotation value="0.000000" />
+      <nameHash>nativegirlsleeve_14</nameHash>
+      <txdHash>nativegirlsleeve_14</txdHash>
+      <txtHash>nativegirlsleeve_14</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.500000" y="0.590000" />
+      <scale x="0.270000" y="0.220000" />
+      <rotation value="0.000000" />
+      <nameHash>facetats_15</nameHash>
+      <txdHash>facetats_15</txdHash>
+      <txtHash>facetats_15</txtHash>
+      <zone>ZONE_HEAD</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.500000" y="0.620000" />
+      <scale x="0.370000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>facetats_16</nameHash>
+      <txdHash>facetats_16</txdHash>
+      <txtHash>facetats_16</txtHash>
+      <zone>ZONE_HEAD</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.530000" y="0.640000" />
+      <scale x="0.270000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>facetats_17</nameHash>
+      <txdHash>facetats_17</txdHash>
+      <txtHash>facetats_17</txtHash>
+      <zone>ZONE_HEAD</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.150000" y="0.390000" />
+      <rotation value="0.000000" />
+      <nameHash>randomsleeve_18</nameHash>
+      <txdHash>randomsleeve_18</txdHash>
+      <txtHash>randomsleeve_18</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="1.700000" y="0.820000" />
+      <scale x="0.190000" y="0.240000" />
+      <rotation value="0.000000" />
+      <nameHash>randomhalfsleeve_19</nameHash>
+      <txdHash>randomhalfsleeve_19</txdHash>
+      <txtHash>randomhalfsleeve_19</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="1.700000" y="0.820000" />
+      <scale x="0.290000" y="0.240000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_20</nameHash>
+      <txdHash>halfsleeve_20</txdHash>
+      <txtHash>halfsleeve_20</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="1.700000" y="0.820000" />
+      <scale x="0.190000" y="0.240000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_21</nameHash>
+      <txdHash>halfsleeve_21</txdHash>
+      <txtHash>halfsleeve_21</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.240000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>sleeve_22</nameHash>
+      <txdHash>sleeve_22</txdHash>
+      <txtHash>sleeve_22</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.430000" />
+      <scale x="0.260000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>spidermanchest_23</nameHash>
+      <txdHash>spidermanchest_23</txdHash>
+      <txtHash>spidermanchest_23</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.530000" y="0.845000" />
+      <scale x="0.160000" y="0.270000" />
+      <rotation value="0.000000" />
+      <nameHash>halfsleeve_24</nameHash>
+      <txdHash>halfsleeve_24</txdHash>
+      <txtHash>halfsleeve_24</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.820000" y="0.530000" />
+      <scale x="0.160000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>halfchest_25</nameHash>
+      <txdHash>halfchest_25</txdHash>
+      <txtHash>halfchest_25</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.717000" y="0.410000" />
+      <scale x="0.270000" y="0.340000" />
+      <rotation value="0.000000" />
+      <nameHash>sharktattoo_26</nameHash>
+      <txdHash>sharktattoo_26</txdHash>
+      <txtHash>sharktattoo_26</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.240000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>masksleeve</nameHash>
+      <txdHash>masksleeve</txdHash>
+      <txtHash>masksleeve</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.240000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>mexicansleeve</nameHash>
+      <txdHash>mexicansleeve</txdHash>
+      <txtHash>mexicansleeve</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.530000" />
+      <scale x="0.130000" y="0.170000" />
+      <rotation value="0.000000" />
+      <nameHash>weirdsleeve</nameHash>
+      <txdHash>weirdsleeve</txdHash>
+      <txtHash>weirdsleeve</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.530000" />
+      <scale x="0.260000" y="0.350000" />
+      <rotation value="0.000000" />
+      <nameHash>chestwolfskull</nameHash>
+      <txdHash>chestwolfskull</txdHash>
+      <txtHash>chestwolfskull</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.640000" />
+      <scale x="0.150000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>sleeve</nameHash>
+      <txdHash>sleeve</txdHash>
+      <txtHash>sleeve</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.430000" />
+      <scale x="0.260000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>topchest</nameHash>
+      <txdHash>topchest</txdHash>
+      <txtHash>topchest</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.500000" y="0.250000" />
+      <scale x="0.870000" y="0.250000" />
+      <rotation value="0.000000" />
+      <nameHash>roseneck</nameHash>
+      <txdHash>roseneck</txdHash>
+      <txtHash>roseneck</txtHash>
+      <zone>ZONE_HEAD</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.745000" y="0.480000" />
+      <scale x="0.250000" y="0.350000" />
+      <rotation value="0.000000" />
+      <nameHash>backminis</nameHash>
+      <txdHash>backminis</txdHash>
+      <txtHash>backminis</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.830000" />
+      <scale x="0.100000" y="0.270000" />
+      <rotation value="0.000000" />
+      <nameHash>armtattoo</nameHash>
+      <txdHash>armtattoo</txdHash>
+      <txtHash>armtattoo</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.530000" />
+      <scale x="0.260000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>chestaztectattoo</nameHash>
+      <txdHash>chestaztectattoo</txdHash>
+      <txtHash>chestaztectattoo</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.770000" />
+      <scale x="0.150000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>armbear</nameHash>
+      <txdHash>armbear</txdHash>
+      <txtHash>armbear</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.730000" y="0.660000" />
+      <scale x="0.35000" y="0.18000" />
+      <rotation value="0.000000" />
+      <nameHash>ancientneck</nameHash>
+      <txdHash>ancientneck</txdHash>
+      <txtHash>ancientneck</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.500000" />
+      <scale x="0.260000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>chestminis</nameHash>
+      <txdHash>chestminis</txdHash>
+      <txtHash>chestminis</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.500000" />
+      <scale x="0.260000" y="0.380000" />
+      <rotation value="0.000000" />
+      <nameHash>chestspinefulltat</nameHash>
+      <txdHash>chestspinefulltat</txdHash>
+      <txtHash>chestspinefulltat</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.220000" y="0.230000" />
+      <scale x="0.180000" y="0.20000" />
+      <rotation value="0.000000" />
+      <nameHash>flowerhand</nameHash>
+      <txdHash>flowerhand</txdHash>
+      <txtHash>flowerhand</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.700000" y="0.420000" />
+      <scale x="0.150000" y="0.280000" />
+      <rotation value="0.000000" />
+      <nameHash>foxwrap</nameHash>
+      <txdHash>foxwrap</txdHash>
+      <txtHash>foxwrap</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.150000" y="0.230000" />
+      <scale x="0.230000" y="0.30000" />
+      <rotation value="0.000000" />
+      <nameHash>handeyetattoo</nameHash>
+      <txdHash>handeyetattoo</txdHash>
+      <txtHash>handeyetattoo</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.220000" y="0.230000" />
+      <scale x="0.180000" y="0.20000" />
+      <rotation value="0.000000" />
+      <nameHash>handtattoo</nameHash>
+      <txdHash>handtattoo</txdHash>
+      <txtHash>handtattoo</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.460000" y="0.740000" />
+      <scale x="0.240000" y="0.320000" />
+      <rotation value="0.000000" />
+      <nameHash>japhalfsleeve</nameHash>
+      <txdHash>japhalfsleeve</txdHash>
+      <txtHash>japhalfsleeve</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.500000" />
+      <scale x="0.260000" y="0.380000" />
+      <rotation value="0.000000" />
+      <nameHash>japsleeve2</nameHash>
+      <txdHash>japsleeve2</txdHash>
+      <txtHash>japsleeve2</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.720000" y="0.400000" />
+      <scale x="0.260000" y="0.380000" />
+      <rotation value="0.000000" />
+      <nameHash>japsleeve3</nameHash>
+      <txdHash>japsleeve3</txdHash>
+      <txtHash>japsleeve3</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.630000" />
+      <scale x="0.100000" y="0.220000" />
+      <rotation value="0.000000" />
+      <nameHash>japuppersleeve</nameHash>
+      <txdHash>japuppersleeve</txdHash>
+      <txtHash>japuppersleeve</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.630000" />
+      <scale x="0.100000" y="0.220000" />
+      <rotation value="0.000000" />
+      <nameHash>japuppersleeve2</nameHash>
+      <txdHash>japuppersleeve2</txdHash>
+      <txtHash>japuppersleeve2</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.80000" />
+      <scale x="0.100000" y="0.260000" />
+      <rotation value="0.000000" />
+      <nameHash>latinsleeve</nameHash>
+      <txdHash>latinsleeve</txdHash>
+      <txtHash>latinsleeve</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>legminitattoos</nameHash>
+      <txdHash>legminitattoos</txdHash>
+      <txtHash>legminitattoos</txtHash>
+      <zone>ZONE_RIGHT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.490000" y="0.730000" />
+      <scale x="0.100000" y="0.220000" />
+      <rotation value="0.000000" />
+      <nameHash>rightminis</nameHash>
+      <txdHash>rightminis</txdHash>
+      <txtHash>rightminis</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+  </presets>
+  <nameHash>new_overlays</nameHash>
+   <medalLocations content="vector2_array">
+    0.140000	0.070000
+    0.370000	0.070000
+    0.600000	0.070000
+    0.835000	0.070000
+    0.140000	0.150000
+    0.370000	0.150000
+    0.600000	0.150000
+    0.835000	0.150000
+    0.140000	0.230000
+    0.370000	0.230000
+    0.600000	0.230000
+    0.835000	0.230000
+    0.100000	0.700000
+    0.300000	0.700000
+    0.500000	0.700000
+    0.700000	0.700000
+  </medalLocations>
+  <medalScale x="0.240000" y="0.100000" />
+</PedDecorationCollection>
