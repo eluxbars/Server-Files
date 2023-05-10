@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+body {
+    overflow: hidden;
+    display: none;
+}
+
+#container  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 750px;
+    background: #253237;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 50px 8px #5C6B73;
+    padding: 10px;
+}
+
+#reward-title {
+    font-family: 'Gluten', cursive;
+    color: #E0FBFC;
+    font-size: 30px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    margin: 15px;
+    text-shadow: 0px 3px 5px #5C6B73;
+}
+
+#reward-desc {
+    font-family: 'Kanit', sans-serif;
+    color: #E0FBFC;
+    font-size: 15px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    margin: 7px;
+    text-shadow: 0px 3px 5px #5C6B73;
+}
+
+.card {
+    text-align: center;
+    flex-wrap: wrap;
+    background: #314349;
+    border-radius: 10px;
+    border:2px solid #5C6B73;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 10px; 
+    transition: all 0.1s linear 0s;
+}
+
+.card:hover {
+    transform: scale(1.01, 1.01);
+}
+
+.button {
+    background: #314349;
+    font-family: Arial;
+    color: #E0FBFC;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding: 2px 10px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #778992, 0px -1px 0px 0px #778992, 0px 0px 0px 5px #5C6B73;
+    transition: all 0.25s linear 0s;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background: #314349;
+    color: #E0FBFC;
+    box-shadow: 0px 1px 2px 0px #778992, 0px -1px 0px 0px #778992, 0px 0px 0px 5px #E0FBFC;
+    transition: all 0.25s linear 0s;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5C6B73;
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
+
+#claimed {
+    color: #FF0000;
+}
+
+#claimable {
+    color: #cbdfbd;
+}
+
+#exit-button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    top: 5px;
+}

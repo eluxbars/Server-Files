@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TattooShopItemArray>
+	<TattooShopItems>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>sleeve_01</textLabel>
+			<collection>new_overlays</collection>
+			<preset>sleeve_01</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_02</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_02</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_03</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_03</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_04</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_04</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>sleeve_05</textLabel>
+			<collection>new_overlays</collection>
+			<preset>sleeve_05</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>legskull_07</textLabel>
+			<collection>new_overlays</collection>
+			<preset>legskull_07</preset>
+			<zone>PDZ_RIGHT_LEG</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>legskull_08</textLabel>
+			<collection>new_overlays</collection>
+			<preset>legskull_08</preset>
+			<zone>PDZ_LEFT_LEG</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>upperhalfsleeve_09</textLabel>
+			<collection>new_overlays</collection>
+			<preset>upperhalfsleeve_09</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>mexicansleeve_10</textLabel>
+			<collection>new_overlays</collection>
+			<preset>mexicansleeve_10</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>anothersleeve_11</textLabel>
+			<collection>new_overlays</collection>
+			<preset>anothersleeve_11</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>upperhalfsleeve_12</textLabel>
+			<collection>new_overlays</collection>
+			<preset>upperhalfsleeve_12</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>marilynmonroesleeve_right_13</textLabel>
+			<collection>new_overlays</collection>
+			<preset>marilynmonroesleeve_right_13</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>nativegirlsleeve_14</textLabel>
+			<collection>new_overlays</collection>
+			<preset>nativegirlsleeve_14</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>facetats_15</textLabel>
+			<collection>new_overlays</collection>
+			<preset>facetats_15</preset>
+			<zone>PDZ_HEAD</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>facetats_16</textLabel>
+			<collection>new_overlays</collection>
+			<preset>facetats_16</preset>
+			<zone>PDZ_HEAD</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>facetats_17</textLabel>
+			<collection>new_overlays</collection>
+			<preset>facetats_17</preset>
+			<zone>PDZ_HEAD</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>randomsleeve_18</textLabel>
+			<collection>new_overlays</collection>
+			<preset>randomsleeve_18</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>randomhalfsleeve_19</textLabel>
+			<collection>new_overlays</collection>
+			<preset>randomhalfsleeve_19</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_20</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_20</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_21</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_21</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>sleeve_22</textLabel>
+			<collection>new_overlays</collection>
+			<preset>sleeve_22</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>spidermanchest_23</textLabel>
+			<collection>new_overlays</collection>
+			<preset>spidermanchest_23</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfsleeve_24</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfsleeve_24</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>halfchest_25</textLabel>
+			<collection>new_overlays</collection>
+			<preset>halfchest_25</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>sharktattoo_26</textLabel>
+			<collection>new_overlays</collection>
+			<preset>sharktattoo_26</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="564"/>
+			<cost value="50"/>
+			<textLabel>masksleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>masksleeve</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+	    <Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>mexicansleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>mexicansleeve</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>weirdsleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>weirdsleeve</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>chestwolfskull</textLabel>
+			<collection>new_overlays</collection>
+			<preset>chestwolfskull</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>sleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>sleeve</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>topchest</textLabel>
+			<collection>new_overlays</collection>
+			<preset>topchest</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>roseneck</textLabel>
+			<collection>new_overlays</collection>
+			<preset>roseneck</preset>
+			<zone>PDZ_HEAD</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>backminis</textLabel>
+			<collection>new_overlays</collection>
+			<preset>backminis</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>armtattoo</textLabel>
+			<collection>new_overlays</collection>
+			<preset>armtattoo</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>chestaztectattoo</textLabel>
+			<collection>new_overlays</collection>
+			<preset>chestaztectattoo</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>armbear</textLabel>
+			<collection>new_overlays</collection>
+			<preset>armbear</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>ancientneck</textLabel>
+			<collection>new_overlays</collection>
+			<preset>ancientneck</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>chestminis</textLabel>
+			<collection>new_overlays</collection>
+			<preset>chestminis</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>chestspinefulltat</textLabel>
+			<collection>new_overlays</collection>
+			<preset>chestspinefulltat</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>flowerhand</textLabel>
+			<collection>new_overlays</collection>
+			<preset>flowerhand</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>foxwrap</textLabel>
+			<collection>new_overlays</collection>
+			<preset>foxwrap</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>handeyetattoo</textLabel>
+			<collection>new_overlays</collection>
+			<preset>handeyetattoo</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>handtattoo</textLabel>
+			<collection>new_overlays</collection>
+			<preset>handtattoo</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>japhalfsleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>japhalfsleeve</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>japsleeve2</textLabel>
+			<collection>new_overlays</collection>
+			<preset>japsleeve2</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>japsleeve3</textLabel>
+			<collection>new_overlays</collection>
+			<preset>japsleeve3</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>japuppersleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>japuppersleeve</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>japuppersleeve2</textLabel>
+			<collection>new_overlays</collection>
+			<preset>japuppersleeve2</preset>
+			<zone>PDZ_LEFT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>latinsleeve</textLabel>
+			<collection>new_overlays</collection>
+			<preset>latinsleeve</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>legminitattoos</textLabel>
+			<collection>new_overlays</collection>
+			<preset>legminitattoos</preset>
+			<zone>PDZ_RIGHT_LEG</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="0"/>
+			<cost value="0"/>
+			<textLabel>rightminis</textLabel>
+			<collection>new_overlays</collection>
+			<preset>rightminis</preset>
+			<zone>PDZ_RIGHT_ARM</zone>
+			<updateGroup>90</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>2</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+	</TattooShopItems>
+</TattooShopItemArray>

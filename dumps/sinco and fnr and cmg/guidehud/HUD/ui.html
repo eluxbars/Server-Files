@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Game JQuery -->
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  <style>.jumbotron {display: none;}</style>
+  <script>
+    $(function () {
+      $(document).keydown(function (e) {
+        if (e.keyCode == 27 || e.keyCode == 112) {
+          $('.jumbotron').fadeOut();
+          $.post('http://guidehud/closeGuideHud', JSON.stringify({}));
+        }
+      });
+
+      window.addEventListener('message', function (event) {
+        if (event.data.type == "openGuideHud") {
+          $('.jumbotron').fadeIn();
+        }
+      });
+
+      $("#exit_gui").click(() => {
+        $('.jumbotron').fadeOut();
+        $.post('http://guidehud/closeGuideHud', JSON.stringify({}));
+      });
+    });
+  </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="jumbotron vertical-center">
+    <div class="container">
+      <nav class="navbar">
+        <span class="navbar-brand"></span>
+      </nav>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-rules-tab" data-toggle="pill" href="#pills-rules" role="tab"
+            aria-controls="pills-rules" aria-selected="true">RULES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-controls-tab" data-toggle="pill" href="#pills-controls" role="tab"
+            aria-controls="pills-controls" aria-selected="false">CONTROLS</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <!-- Home Tab -->
+        <div class="tab-pane home-tab fade show active" id="pills-home" role="tabpanel"
+          aria-labelledby="pills-home-tab">
+          <div class="logo"><img src="" style="width:200px"></img></div>
+          <!-- <img src="../assets/img/logo.png"> -->
+          <h1></h1>
+          <ul>
+          </ul>
+          <h2>Press <kbd></kbd> in game to bring up this menu at any time.</h2>
+          <div class="loading d-flex justify-content-center">
+            <br><br><br>
+            <div class="discord">
+              <img src="../assets/img/discord.png">
+              <p>discord.gg/sinco</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Home Tab -->
+        <!-- Rules Tab -->
+        <div class="tab-pane fade show" id="pills-rules" role="tabpanel" aria-labelledby="pills-rules-tab">
+          <!-- Rules Inner Tabs -->
+          <div class="nav flex-column nav-pills inner-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link nav-link-inner active" id="v-pills-guidelines-tab" data-toggle="pill"
+              href="#v-pills-guidelines" role="tab" aria-controls="v-pills-guidelines"
+              aria-selected="true">Getting Started</a>
+            <a class="nav-link nav-link-inner" id="v-pills-general-conduct-tab" data-toggle="pill"
+              href="#v-pills-general-conduct" role="tab" aria-controls="v-pills-general-conduct"
+              aria-selected="false">General Rules</a>
+            <a class="nav-link nav-link-inner" id="v-pills-general-conduct2-tab" data-toggle="pill" href="#v-pills-general-conduct2"
+              role="tab" aria-controls="v-pills-rprules" aria-selected="false">General Rules #2</a>
+            <a class="nav-link nav-link-inner" id="v-pills-rprules-tab" data-toggle="pill" href="#v-pills-rprules"
+              role="tab" aria-controls="v-pills-rprules" aria-selected="false">Incharacter Rules</a>       
+            <a class="nav-link nav-link-inner" id="v-pills-factionrules-tab" data-toggle="pill"
+              href="#v-pills-factionrules" role="tab" aria-controls="v-pills-factionrules"
+              aria-selected="false">Faction Rules</a>
+              <a class="nav-link nav-link-inner" id="v-pills-gang-tab" data-toggle="pill" href="#v-pills-gang"
+              role="tab" aria-controls="v-pills-gang" aria-selected="false">Faction Rules #2</a>
+              <a class="nav-link nav-link-inner" id="v-pills-zones-tab" data-toggle="pill" href="#v-pills-zones"
+              role="tab" aria-controls="v-pills-zones" aria-selected="false">Zones</a>           
+              
+          </div>
+          <div class="tab-content tab-content-inner" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-guidelines" role="tabpanel" aria-labelledby="v-pills-guidelines-tab">
+              <!-- Guideline Rules -->
+              <p> <font color="lightblue">Welcome to SincoRP,
+                Here's a couple things you can do to get started within the city!:<br><br>
+                <font color="red">1.</font> There is a FREE car at Simeons, look on the map if you don't know where Simeons is located.<br><br>
+                <font color="red">2.</font> Try out the life of crime, there are many benefits the criminal life offers, you may start a gang, rob people, rob shops, banks and even do illegal drug runs.<br><br>
+                <font color="red">3.</font> As you progress through the server, you will need to buy licenses to access certain jobs & garages, see the License centre at the Job centre</font></p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-general-conduct" role="tabpanel" aria-labelledby="v-pills-general-conduct-tab">
+                <!-- General Conduct Rules -->
+                <font color="red">1.1 NRTI - No Reason To Initiate</font>Initiation Without a valid reason.<br>
+                <font color="#c2cbff">• You must have a valid reason when initiating on another player. (eg. seeing them come from an illegal location, or seeing them with a firearm.)<br>
+                    • A backpack is NOT a reason to initiate.<br>
+                    • You cannot initiate at a respawn point.</font><br>
+                <font color="red">1.2 RDM - Random Deathmatch</font> - Killing another player without valid initiation<br>
+                <font color="#c2cbff">• Initiation lasts 10 minutes.<br>
+                    • To have initiation, your weapon must be fully withdrawn.<br>
+                    • To have initiation, you must be fully visible.<br>
+                    • You cannot initiate from inside a vehicle.<br>
+                    • Gang Initiation is capped at 10 gang members.<br>
+                    • You must be set to shouting, making it clear your demand.<br>
+                    • To have initiation, you must have the same top and pants on and they must be the same colour. Any variation, and you do not have initiation.</font><br>        
+                <font color="red">1.3 VDM - Vehicle Deathmatch</font> - You may not use your vehicle as a weapon. Upon having initiation on a person within a vehicle, you may attempt to disable their vehicle by ramming.<br>
+                <font color="#c2cbff">• Under initiation - You are able to VDM players, as long as the initiation is valid between both parties.<br>
+                    • Using your car as a weapon to try to gain an advantage over another player in a RP situation.</font><br>
+                <font color="red">1.4 - Meta Gaming</font> - Using out of character information to gain in-game knowledge is not permitted.<br>
+                <font color="red">1.5 - Power Gaming</font><br>
+                <font color="#c2cbff">• Using an ingame bug/mechanic to gain an advantage within roleplay. (eg. removing clothing while in initiation/changing vehicle during an active situation.)<br>
+                    • Using a founders/management lock to gain an unfair advantage over non-management vehicles.</font><br>
+                  <br>
+              </div>
+              <div class="tab-pane fade" id="v-pills-general-conduct2" role="tabpanel" aria-labelledby="v-pills-general-conduct2-tab" id="newtext">
+                <!-- Role Playing Rules -->
+                <font color="red">1.6 - Fail RP</font> - Failure to roleplay.<br>
+                <font color="#c2cbff">• Unrealistic behaviour during roleplay (eg. Taking a vehicle out the garage while in an active chase.)<br>
+                    • You cannot search somebody without a valid reason. If you search them without initiation, it's Fail RP. You cannot go past somebody and just search them.<br>
+                    • Talking whilst dead is impossible IRL - It is fail RP.<br>
+                    • GTA Driving comes under Fail RP. Do not use vehicles in unrealistic situations.<br>
+                    • You cannot take an officer hostage if you already have a hostage.<br>
+                    • You cannot call off negotiations without a valid reason. This applies to both PD and civilians.</font><br>  
+                <font color="red">1.7 - Bad RP</font> – When ingame you must remain in character unless a staff member is present dealing with a situation.<br>
+                <font color="red">1.8 - NITRP | No intent to roleplay</font> - Having no intent to roleplay will not be tolerated on SincoRP and you will be permanently banned.<br>
+                <font color="red">1.9 - FTVL - Failure to value life</font> - You must value your life at all times.<br>
+                <font color="red">1.10 - NLR - New Life Rule</font> - You cannot return to an active situation for ANY reason for 10 minutes. Do not risk asking permission to return. This does not apply to the NHS or LFB.<br>
+                <font color="red">1.11 - Sexual RP</font>- Consenual sexual rp is allowed, Non-Consentual sexual RP is disallowed.<br>        
+                <font color="red">1.12 - Whitelist Abuse</font> - Deliberately breaking rules or utilising a whitelist for your own advantage.<br>        
+                <font color="red">1.13 - Cheating</font> - This is not tolerated within SincoRP and you will be permanently banned if caught and never unbanned.<br>        
+                <font color="red">1.14 - Scamming</font> - Scamming is allowed in-game as long as the amount is less than £1,000,000, and results in a storyline with somebody.<br>        
+                <font color="red">1.15 - Offensive Language, Bullying and Discrimination</font> - You must not discriminate against someone for any reason. This will not be tolerated within SincoRP and you will be permanently banned.<br>        
+                <font color="red">1.16 - OOGT - Out of game transactions</font> - Selling/Buying or attempting to sell/buy money, vehicles or any other in-game assets for real world money, trade or services is not allowed and all parties will be permanently banned.<br>        
+                <font color="red">1.17 Wasting Admin Time</font> - You are intentionally wasting a staff member’s time and/or making a situation last longer when it doesn't need to.<br>               
+                </div>
+              <div class="tab-pane fade" id="v-pills-rprules" role="tabpanel" aria-labelledby="v-pills-rprules-tab">
+                <!-- Role Playing Rules -->
+                <font color="red">1.18 - Blackmail</font> - You cannot blackmail people; you are not allowed to say “Comp or Push” in out of character chat at any point. Comp is an option allowed in the sit. Call an admin for it to be dealt with.<br
+                <font color="red">1.19 - NHS Roleplay</font> - You must follow and engage with NHS Roleplay.<br><br>
+                <font color="red">1.20 - Terrorist RP</font> - Terrorist roleplay is allowed, but you must not re-enact real life events / mimic them.<br><br>
+                <font color="red">1.21 - Chargebacks</font> - Chargebacks are not allowed - at all.<br><br>
+                <font color="red">1.22 - Staff Discretion</font> - Staff reserve the right to restrict access to any SincoRP related platforms and services at any point.<br><br>
+                <font color="red">1.23 - Multi-Accounting/Ban Evading</font> - You are not allowed to ban evade or use more than one account on SincoRP.<br><br>
+                <font color="red">1.24 - City Zone</font> - All phase 3 weapons are allowed within the city except from mosins.<br>
+            </div>
+              <div class="tab-pane fade" id="v-pills-factionrules" role="tabpanel"
+                aria-labelledby="v-pills-factionrules-tab">
+
+
+<!-- <font color="#c2cbff">• <br>• <br>• </font><br> -->
+
+                <p2>
+                  <b><font color="red">General</font></b><br>                          
+                  <font color="red">1.25 Theft of Emergency Vehicles</font> - Stealing emergency service vehicles such as Police or NHS vehicles is allowed only if you have a valid RP reason. <br>
+                  <font color="#c2cbff">• A valid RP reason - The emergency vehicle is the only means of escape.</font><br><br>
+                  <font color="red">1.26 Whitelist Abuse</font> - Taking advantage of a faction whitelist.<br>    
+                  <font color="#c2cbff">• Reviving friends.<br>
+                    • Clocked on as the incorrect rank.<br>
+                    • Distributing whitelisting vehicles.<br>
+                    • Police corruption.<br>
+                    • Using whitelisted vehicles whilst off-duty<br>
+                    • Using whitelisted perks/abilities whilst off-duty<br>
+                    • AFK paycheck abuse<br><br>
+                    <b><font color="#697fff">Police</font></b><br>
+                    <font color="red">1.27 Cop Baiting</font> - Taking actions to make the police chase and/or engage with you, especially to start a firefight. This includes driving erratically past the police or intentionally causing damage to a police vehicle. <br><br>
+                    <font color="red">1.28 PD Kidnapping</font> - PCSO’s and Custody Sergeant's are not allowed to be taken hostage. <br><br>
+                    <b><font color="##79c973">NHS</font></b><br>
+                    <font color="red">1.29 Unrealistic Revival</font> - When you have been revived, you are in medical custody until a member of NHS releases you. You may not simply run off once revived by a medic.<br><br>
+                    <font color="red">1.30 Combat reviving</font> - Reviving any player during an active gunfight.<br><br>
+                </font><br>
+                </p2>
+                </div>                 
+              <div class="tab-pane fade" id="v-pills-gang" role="tabpanel" aria-labelledby="v-pills-gang">
+                <b><font color="orange">Gangs</font></b><br>
+                <font color="red">1.31 Gang Cap</font> - Groups larger than 10 are not allowed to engage in hostile RP. If a gang member dies within a situation, another gang member cannot respond to take over this 10th position. It is the gang members responsibility to make sure they are aware of their gang numbers.<br><br>
+                <font color="red">1.32 Max Gang Numbers </font> - Gang members in excess of the 10 player limit may not take part in hostile roleplay with the main group nor call in for reinforcements. <br><br>
+                <font color="red">1.33 Gang Alliance</font> - Gangs are not allowed to ally with other players, gangs, or security groups to increase their effective size.<br><br>
+                <font color="red">1.34 Gang Initiation</font> - Gang initiation is when one member of a gang initiates on another member of another gang and therefore all members of both gangs are automatically initiated on each other if they are visible or within 100 meters. To initiate as a group, you must be wearing the same clothing and colours as your other party members. Bags, masks, shoes, headwear, and other accessories are not included.<br><br>
+                <font color="red">1.35 Gang Impersonation</font> - Impersonation of other gangs is forbidden.<br><br>
+              </div>
+              <div class="tab-pane fade" id="v-pills-zones" role="tabpanel" aria-labelledby="v-pills-zones">   
+                <b><font color="green">Green zone specific rules:</font></b><br>
+     
+                <font color="red">1.36</font> - You must not steal a vehicle from the green zone. <br><br>
+                <font color="red">1.37</font> - You must not sell illegal items such as drugs or guns in a green zone.<br><br>
+                <font color="red">1.38</font> - You may not retreat into a green zone to avoid hostile roleplay, whilst in hostile roleplay or whilst under ongoing initiation.<br><br>
+  
+                <b><font color="red">Red zone specific rules:</font></b><br>
+                <font color="red">1.39</font> - RDM, FTVL and NTRI do not apply in redzones.<br><br>
+                <font color="red">1.40</font> - Hostages cannot be taken into red zones. <br><br>
+                <font color="red">1.41</font> - You may not flee into a red zone when in a police pursuit. <br><br>
+                <font color="red">1.42</font> - If players are within a 10-meter radius of a red zone this will be a valid reason to be initiated on.<br><br>
+              </div>                                              
+          </div>
+          <!-- End Rules Inner Tabs -->
+        </div>
+        <!-- End Rules Tab -->
+        <!-- Controls Tab -->
+        <div class="tab-pane fade" id="pills-controls" role="tabpanel" aria-labelledby="pills-controls-tab">
+          <!-- Controls Inner Tabs -->
+          <div class="nav flex-column nav-pills inner-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link nav-link-inner active" id="v-pills-general-tab" data-toggle="pill"
+              href="#v-pills-general" role="tab" aria-controls="v-pills-general" aria-selected="true">GENERAL</a>
+            <a class="nav-link nav-link-inner" id="v-pills-rp-tab" data-toggle="pill" href="#v-pills-rp" role="tab"
+              aria-controls="v-pills-rp" aria-selected="false">ROLEPLAY</a>
+            <a class="nav-link nav-link-inner" id="v-pills-vehicles-tab" data-toggle="pill" href="#v-pills-vehicles"
+              role="tab" aria-controls="v-pills-vehicles" aria-selected="false">VEHICLES</a>
+            <!-- <a class="nav-link nav-link-inner" id="v-pills-jobs-tab" data-toggle="pill" href="#v-pills-jobs" role="tab"
+              aria-controls="v-pills-jobs" aria-selected="false">JOBS</a> -->
+          </div>
+          <div class="tab-content tab-content-inner" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-general" role="tabpanel"
+              aria-labelledby="v-pills-general-tab">
+              <!-- General Hotkeys -->
+            </div>
+            <div class="tab-pane fade" id="v-pills-rp" role="tabpanel" aria-labelledby="v-pills-rp-tab">
+              <!-- RP Hotkeys -->
+            </div>
+            <div class="tab-pane fade" id="v-pills-vehicles" role="tabpanel" aria-labelledby="v-pills-vehicles-tab">
+              <!-- Vehicle Hotkeys -->
+            </div>
+            <div class="tab-pane fade" id="v-pills-jobs" role="tabpanel" aria-labelledby="v-pills-jobs-tab">
+              <!-- Job Hotkeys -->
+            </div>
+          </div>
+          <!-- End Controls Inner Tabs -->
+        </div>
+        <!-- End Controls Tab -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="../assets/js/app.js"></script>
+  <script src="../config.js"></script>
+
+  <!-- Bootstrap Includes -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
