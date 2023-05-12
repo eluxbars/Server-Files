@@ -1,0 +1,77 @@
+Use any of these for editing carcols.meta for cars that have extra mods for example,hoods,spoiler ect
+
+																				Bonnet (Hood)
+
+MNU_BONB    = Single Intake Bug Catcher
+MNU_BONB2   = Triple Intake Bug Catcher
+MNU_BONC    = Carbon Hood
+MNU_BONCI   = Cowl Induction Hood
+MNU_BONV    = Vented Hood
+MNU_BONV2   = Double Vented Hood
+MNU_BONVC   = Carbon Vented Hood
+MNU_BONR    = Ram Air Hood
+MNU_BONP    = Performance Hood
+MNU_BONSC   = Carbon Scooped Hood
+RUINER_BON  = Carbon Hood & Light Covers
+RAT_HOOD1   = Remove Hood
+RAT_HOOD2   = Repaired Hood
+RAT_HOOD3   = Single Scoop with Hood
+RAT_HOOD4   = Single Scoop without Hood
+RAT_HOOD5   = Triple Scoop with Hood
+RAT_HOOD6   = Triple Scoop without Hood
+FUTO_BON    = Vented Carbon Hood
+DUB_HOOD1   = Off-Road Hood
+DUB_HOOD2   = Off-Road Hood with Spare
+BD2_HOOD    = Carbon Twin Intakes
+BD2_HOOD5   = Bull Horns
+BD2_HOOD6   = Twin Intakes
+ASEA_SHOOD1 = Stickerbomb Hood
+
+																				Spoilers
+
+MNU_WING1   = GT Wing
+MNU_WING2   = Drift Wing
+MNU_WING3   = Low Level Spoiler
+MNU_WING4   = High Level Spoiler
+MNU_WING5   = Ducktail Spoiler
+MNU_WING6   = Lip Spoiler
+MNU_WING7   = Drag Wing
+MNU_WING8   = Carbon Wing
+MNU_WING9   = Mid Level Spoiler
+MNU_WING10  = Tuner Wing
+MNU_WING11  = Stock Car Wing
+MNU_WING12  = Carbon Wing Type II
+MNU_WING13  = Color Coded Wing
+
+																				Rear Bumpers
+
+MNU_BUMR1   = Painted Rear Bumper
+MNU_BUMR2   = Carbon Rear Diffuser
+MNU_BUMR3   = Painted Rear Diffuser
+MNU_BUMR4   = Carbon Diffuser & Tow Hook
+
+																				Front Bumpers
+
+MNU_BUMF1   = Custom Front Splitter
+MNU_BUMF2   = Carbon Front Splitter
+
+																				Exhaust
+
+MNU_EXH1    = Chrome Tip Exhaust
+MNU_EXH2    = Big Bore Exhaust
+MNU_EXH3    = Dual Exit Exhaust
+MNU_EXH4    = Titanium Exhaust
+MNU_EXH5    = Titanium Tuner Exhaust
+MNU_EXH6    = Race Exhaust
+MNU_EXH7    = Shakotan Exhaust
+MNU_EXH8    = Straight Pipe Exhaust
+MNU_EXH9    = Side Exit Exhaust
+MNU_EXH10   = Snorkle Intake
+MNU_EXH11   = Dual Titanium Exhaust
+MNU_EXH12   = Oval Exhaust
+MNU_EXH13   = Triple Exit Exhaust
+
+
+
+MNU_SKIRT   = skirt
+			

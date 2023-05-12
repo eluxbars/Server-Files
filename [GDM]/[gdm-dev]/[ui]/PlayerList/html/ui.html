@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GDM">
+    <title>GDM</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div>
+                    <h2>GDM</h2>
+                </div>
+                <div class="data">
+                    <div class="server-info" style="background-color: rgba(0, 0, 0, 0.45); border-top: 0.2vh solid #ff0000;">
+                        <span id="players">Players: 1 / 128</span>
+                    </div>
+                    <div class="players-type" style="border-bottom: 0.2vh solid #ff0000; border-top: 0.2vh solid #ff0000;">
+                        <div>Perm ID</div>
+                        <div>Name</div>
+                        <div>Hours</div>
+                        <div>Kills</div>
+                        <div>Deaths</div>
+                        <div>K/D</div>
+                    </div>
+                </div>
+            </div>
+            <div class="players">
+                <div id="cont-UserIDs"></div>
+                <div id="cont-names"></div>
+                <div id="cont-time"></div>
+                <div id="cont-kills"></div>
+                <div id="cont-deaths"></div>
+                <div id="cont-kd"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
