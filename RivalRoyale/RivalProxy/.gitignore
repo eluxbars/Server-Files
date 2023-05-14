@@ -1,8 +1,0 @@
-# directories
-node_modules
-stream
-
-# files
-package-lock.json
-yarn.lock
-.yarn.installed
